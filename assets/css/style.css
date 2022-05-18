@@ -10,6 +10,7 @@ body {
     background-color: whitesmoke;
     font-family: Lato, sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
 
 }
 
@@ -26,4 +27,35 @@ h2 {
 #logo {
     float: left;
     font-size: 280%;
+}
+
+#menu {
+    letter-spacing: 4px;
+
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+    font-size: 110%;
+    color: inherit;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#menu a:hover {
+    border-bottom: 1px solid rgb(28, 27, 27);
+}
+
+.active {
+    border-bottom: 1px soild rgb(28, 27, 27);
 }
