@@ -1,3 +1,29 @@
-body{
-    background-color: bisque;
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+
+}
+
+/* Adding Fonts to H1, H2 & Logo */
+
+h1,
+h2 {
+    font-family: Eczar sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(28, 27, 27);
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
